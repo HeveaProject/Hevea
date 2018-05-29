@@ -22,18 +22,20 @@ Prerequisites:
 The standard blitz installation directory is `/usr/local`. You can use any other directory if you prefer. 
 * openmp if you want to benefit from parallel programming on multi-core CPUs
 
-1) Unpack the source archive `flat_torus.tgz` in the directory of your choice. 
-2) cd into this directory.
-3) cd bin.
-4) to compile flattorus, run:
+1. Unpack the source archive `flat_torus.tgz` in the directory of your choice. 
+2. cd into this directory.
+3. cd bin.
+4. to compile flattorus, run:
+```bash
 make blitzprefix=[your prefered Blitz++ prefix directory. Default is /usr/local.]
+```
 you can also disable openMP by setting 
 `OPENMPMODE=no`
 or use gcc debug compilation by setting
 `DEBUGMODE=yes`
 
 Examples:
-* If blitz-09 is installed in the standard directory `/usr/local` and you want to compile flattorus with openMP, you should just type:
+* If blitz-09 is installed in the standard directory `/usr/local` and you want to compile flattorus with OpenMP, you should just type:
 ```bash
 $ make
 ```
