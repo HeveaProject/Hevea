@@ -26,10 +26,12 @@ The standard blitz installation directory is `/usr/local`. You can use any other
 2. cd into this directory.
 3. cd bin.
 4. to compile flattorus, run:
-```bash
-make blitzprefix=[your prefered Blitz++ prefix directory. Default is /usr/local.]
-```
-you can also disable openMP by setting 
+
+    ```bash
+    make blitzprefix=[your prefered Blitz++ prefix directory. Default is /usr/local.]
+    ```
+
+You can also disable openMP by setting 
 `OPENMPMODE=no`
 or use gcc debug compilation by setting
 `DEBUGMODE=yes`
