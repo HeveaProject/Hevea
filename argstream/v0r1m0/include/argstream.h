@@ -125,9 +125,9 @@ namespace
     inline OptionHolder(char s,
 			const char* l,
 			const char* desc);  
-    friend OptionHolder help(char s='h',
-			     const char* l="help",
-			     const char* desc="Display this help");
+    friend OptionHolder help(char s,
+			     const char* l,
+			     const char* desc);
   private:
     std::string shortName_;
     std::string longName_;
@@ -157,9 +157,9 @@ namespace
     return OptionHolder(l,b,desc);
   }
   inline OptionHolder
-  help(char s,
-       const char* l,
-       const char* desc)
+  help(char s='h',
+	   const char* l="help",
+	   const char* desc="Display this help")
   {
     return OptionHolder(s,l,desc);
   }
