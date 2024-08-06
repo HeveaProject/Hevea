@@ -1,3 +1,5 @@
+Original code written by Vincent Borrelli ([@borrelli](https://plmlab.math.cnrs.fr/borrelli)), Saïd Jabrane, Francis Lazarus ([@francis.lazarus](https://plmlab.math.cnrs.fr/francis.lazarus)) and Boris Thibert within the [Hevea project](http://www.hevea-project.fr/ENIndexTore.html).
+
 Description
 ===========
 
